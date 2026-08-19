@@ -58,93 +58,108 @@ I enjoy working at the intersection of **backend engineering, AI and full-stack 
 </p>
 
 <p>
-<img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/Anthropic%20Claude-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
-<img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini"/>
+<img src="https://img.shields.io/badge/Anthropic%20Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io"/>
+<img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC"/>
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
 </p>
 
 ---
 
 # 🚀 Featured Projects
 
-## 🤖 Talent IQ — AI Technical Interview Platform
+<table>
+<tr>
+<td width="50%" valign="top">
 
-> A real-time technical interview platform combining collaborative coding, video communication, AI evaluation and secure interview workflows.
+## 🤖 Talent IQ
 
-**React · Node.js · Express · MongoDB · WebRTC · Socket.io · Yjs · Monaco · Stream · Claude · Gemini**
+**AI Technical Interview Platform**
+
+Real-time technical interviewing with collaborative coding, video communication and AI-powered evaluation.
+
+**Stack:** React · Node.js · Express · MongoDB · WebRTC · Socket.io · Yjs · Monaco · Stream · Claude · Gemini
 
 ### ✨ Highlights
 
-- 💻 Real-time collaborative code editor using Monaco + Yjs CRDTs
-- 🎥 HD video/audio interviews with WebRTC
-- 📝 Collaborative system-design whiteboard using tldraw
+- 💻 Collaborative coding with Monaco + Yjs
+- 🎥 HD video/audio interviews
+- 📝 System-design whiteboard
 - 💬 Real-time interview chat
-- 🤖 AI-powered interview evaluation and code review
-- 📄 Resume-driven AI interview questions
-- 🔐 Join-code based session access and waiting room
-- 🛡️ Zero-trust session data protection
-- 🧪 Multi-language code execution through Piston
-- 📅 Interview scheduling and automated reminders
-- 📬 Automated interview email notifications
-- 🏆 XP, badges and leaderboard system
+- 🤖 AI interview evaluation & code review
+- 📄 Resume-driven question generation
+- 🔐 Join-code access & waiting room
+- 🛡️ Secure session data protection
+- 🧪 Multi-language code execution
+- 📅 Interview scheduling & reminders
 
-**Engineering Focus:** Real-Time Systems · AI Engineering · Security · Backend Architecture
+**Focus:** Real-Time Systems · AI · Security · Backend Architecture
 
----
+</td>
+<td width="50%" valign="top">
 
-## 💰 BudgAI — AI-Powered Personal Finance Platform
+## 💰 BudgAI
 
-> A full-stack personal finance platform combining financial tracking, AI-powered receipt processing and automated budget management.
+**AI-Powered Personal Finance Platform**
 
-**Next.js · Tailwind CSS · Supabase · PostgreSQL · Prisma · Gemini AI · Inngest · ArcJet · Clerk**
+A full-stack finance platform combining financial tracking, AI receipt processing and automated budgeting.
+
+**Stack:** Next.js · Tailwind · Supabase · PostgreSQL · Prisma · Gemini · Inngest · ArcJet · Clerk
 
 ### ✨ Highlights
 
 - 💳 AI-powered expense tracking
-- 🧾 AI receipt scanning and OCR
-- 🤖 Gemini-powered transaction extraction
-- 📊 Multi-account financial dashboards
+- 🧾 AI receipt scanning & OCR
+- 🤖 Gemini transaction extraction
+- 📊 Financial dashboards
 - 🔔 Automated budget alerts
-- ⏰ Scheduled background jobs using Inngest
-- 🗄️ Reliable database operations using Prisma transactions
-- 🔐 Authentication and protected routes
-- 🛡️ Application security using ArcJet
+- ⏰ Scheduled background jobs
+- 🗄️ Prisma transactions
+- 🔐 Protected routes & authentication
+- 🛡️ ArcJet security
 
-**Engineering Focus:** Full Stack Development · AI Integration · FinTech · Background Processing
+**Focus:** Full Stack · AI · FinTech · Automation
 
----
+</td>
+</tr>
 
-## 🔄 LOOP — AI Customer Feedback Intelligence Platform
+<tr>
+<td width="50%" valign="top">
 
-> A multi-tenant SaaS platform that transforms customer feedback into searchable, classified and evidence-backed insights.
+## 🔄 LOOP
 
-**Next.js · Express · PostgreSQL · Supabase · Prisma · pgvector · Claude · Voyage AI · Zod**
+**AI Customer Feedback Intelligence Platform**
+
+A multi-tenant SaaS platform transforming customer feedback into searchable, classified and evidence-backed insights.
+
+**Stack:** Next.js · Express · PostgreSQL · Supabase · Prisma · pgvector · Claude · Voyage AI · Zod
 
 ### ✨ Highlights
 
-- 🏢 Multi-tenant workspace architecture
-- 🔐 JWT authentication and RBAC
-- 👥 Admin, Analyst and Viewer roles
-- 🧠 AI-powered sentiment and theme classification
-- 🔎 Semantic search using vector embeddings
-- 📚 RAG-powered feedback Q&A
-- 📊 AI-generated feedback reports
+- 🏢 Multi-tenant workspaces
+- 🔐 JWT authentication & RBAC
+- 👥 Admin / Analyst / Viewer roles
+- 🧠 AI sentiment & theme classification
+- 🔎 Semantic vector search
+- 📚 RAG-powered Q&A
+- 📊 AI-generated reports
 - 🗄️ PostgreSQL + pgvector
-- 🧩 Shared validation schemas using Zod
-- 📦 npm Workspaces monorepo architecture
+- 📦 npm Workspaces monorepo
 
-**Engineering Focus:** Backend Engineering · Multi-Tenancy · RAG · Vector Search · SaaS Architecture
+**Focus:** Backend · Multi-Tenancy · RAG · Vector Search
 
----
+</td>
+<td width="50%" valign="top">
 
-## 🌾 AgriConnect AI — Smart Agriculture Platform
+## 🌾 AgriConnect AI
 
-> An AI-powered agricultural marketplace designed to connect farmers with buyers while providing intelligent agricultural decision-support tools.
+**Smart Agriculture Platform**
 
-**React · Vite · Tailwind CSS · Java · Spring Boot · Spring Security · PostgreSQL · Docker**
+An AI-powered agricultural marketplace connecting farmers and buyers with data-driven agricultural tools.
+
+**Stack:** React · Vite · Tailwind · Java · Spring Boot · Spring Security · PostgreSQL · Docker
 
 ### ✨ Highlights
 
@@ -152,37 +167,40 @@ I enjoy working at the intersection of **backend engineering, AI and full-stack 
 - 🦠 Crop disease detection architecture
 - 🌍 Soil analysis
 - 📈 Yield prediction
-- 🌦️ Weather-based agricultural advisories
+- 🌦️ Weather advisories
 - 🔐 JWT authentication
-- 🗄️ PostgreSQL database
-- 🐳 Dockerized development environment
-- 📖 Swagger/OpenAPI documentation
+- 🗄️ PostgreSQL
+- 🐳 Docker development
+- 📖 Swagger/OpenAPI
 
-**Engineering Focus:** Java Backend · Spring Boot · AI/ML · REST APIs · Docker
+**Focus:** Java Backend · Spring Boot · AI/ML · REST APIs
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🏥 Last Moment Hospital — Hospital Management System
+## 🏥 Last Moment Hospital
 
-> A Java desktop application for managing hospital operations through a modular 3-tier architecture.
+**Java Hospital Management System**
+
+Java-based hospital management application built around modular architecture and database-driven workflows.
 
 **Java 17 · Java Swing · MySQL · JDBC · Maven · FlatLaf · HikariCP**
 
-### ✨ Highlights
-
-- 👨‍⚕️ Patient and doctor management
+- 👨‍⚕️ Patient & doctor management
 - 📅 Appointment scheduling
 - 🛏️ Room management
 - 💰 Billing workflows
 - 👥 Employee management
-- 🔐 Role-Based Access Control
-- 🔒 BCrypt password hashing
+- 🔐 RBAC & BCrypt authentication
 - 🛡️ Prepared statements
 - 📝 Audit logging
 - 🏗️ MVC + DAO architecture
 - 📊 Hospital analytics
 
-**Engineering Focus:** Java · OOP · Database Engineering · Software Architecture · Security
+**Focus:** Java · OOP · Database Engineering · Security
 
 ---
 
@@ -212,7 +230,14 @@ I enjoy working at the intersection of **backend engineering, AI and full-stack 
 
 # 🧠 Core Computer Science
 
-`Data Structures & Algorithms` · `OOP` · `DBMS` · `Operating Systems` · `Computer Networks` · `Web Technologies` · `Software Engineering`
+<p align="center">
+  <img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-2F81F7?style=flat-square"/>
+  <img src="https://img.shields.io/badge/OOP-2F81F7?style=flat-square"/>
+  <img src="https://img.shields.io/badge/DBMS-2F81F7?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Operating%20Systems-2F81F7?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Computer%20Networks-2F81F7?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Software%20Engineering-2F81F7?style=flat-square"/>
+</p>
 
 ---
 
@@ -241,15 +266,17 @@ Scalable Software Systems
 
 # 📈 Engineering Philosophy
 
-```text
-Build → Break → Debug → Understand → Improve
-```
+<div align="center">
+
+### Build → Break → Debug → Understand → Improve
+
+</div>
 
 > I believe the fastest way to become a better engineer is to build real systems, understand their failures, and continuously improve the architecture.
 
 ---
 
-## 📊 GitHub Activity
+# 📊 GitHub Activity
 
 <div align="center">
 
@@ -259,28 +286,41 @@ Build → Break → Debug → Understand → Improve
 
 ---
 
-## 🐍 Contribution Animation
+# 🐍 Contribution Animation
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Vaibhavpatil103/Vaibhavpatil103/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake"/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Vaibhavpatil103/Vaibhavpatil103/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Vaibhavpatil103/Vaibhavpatil103/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="GitHub contribution snake"
+    src="https://raw.githubusercontent.com/Vaibhavpatil103/Vaibhavpatil103/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 
 </div>
 
 ---
 
-## 🤝 Let's Connect
+# 🤝 Let's Connect
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/vaibhav-patil02">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
 </a>
 <a href="mailto:patilvaibhav0222@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail"/>
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail" alt="Email"/>
 </a>
 <a href="https://github.com/Vaibhavpatil103">
-  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" alt="GitHub"/>
 </a>
 
 <br><br>
