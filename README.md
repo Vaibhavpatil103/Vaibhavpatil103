@@ -286,7 +286,7 @@ Scalable Software Systems
 
 ---
 
-# 🐍 Contribution Animation
+# Contributions
 
 <div align="center">
 
